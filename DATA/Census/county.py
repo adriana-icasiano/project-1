@@ -80,3 +80,36 @@ counties = [
 #WI
 'Milwaukee County'
 ]
+
+states = ['Arkansas', 'California', 'Colorado', 'District of Columbia', 'Florida', 'Georgia', 'Idaho', 'Illinois', 'Indiana',
+          'Kentucky', 'Maryland', 'Michigan', 'Minnesota', 'Missouri', 'Nebraska', 'New York', 'North Carolina',
+          'Ohio', 'Oklahoma', 'Oregon', 'Tennessee','Texas','Utah', 'Virginia', 'Washington' , 'Wisconsin']
+
+duplicates = [
+    ('Jefferson County', 'Kentucky'),
+    ('Franklin County', 'Ohio'),
+    ('Marion County', 'Indiana'),
+    ('Monroe County', 'Indiana'),
+    ('Wayne County', 'Michigan'),
+    ('Douglas County', 'Nebraska'),
+    ('Hamilton County', 'Ohio'),
+    ('Orange County', 'Florida'),
+    ('Fayette County', 'Kentucky'),
+    ('Pulaski County', 'Arkansas'          ),
+    ('Boone County', 'Missouri' ),
+    ('Pierce County', 'Washington'),
+    ('Butler County', 'Ohio'),
+    ('Cook County', 'Illinois'),
+    ('Dallas County', 'Texas'),
+    ('St. Louis County', 'Missouri'),
+    ('King County', 'Washington'),
+    ('Kings County', 'New York'),
+    ('Davidson County', 'Tennessee'),
+    ('Mecklenburg County', 'North Carolina')
+]
+    
+    
+    
+    
+    
+    
