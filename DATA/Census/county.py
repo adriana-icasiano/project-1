@@ -108,7 +108,42 @@ duplicates = [
     ('Mecklenburg County', 'North Carolina')
 ]
     
-    
+uniques = [
+'Sacramento County',
+'Durham County',
+'Placer County',
+'Hennepin County',
+'Olmsted County',
+'Bulloch County',
+'Ingham County',
+'Santa Clara County',
+'Cuyahoga County',
+'Tulsa County',
+'Miami-Dade County',
+'Suffolk County',
+'Nueces County',
+'Travis County',
+'Spokane County',
+'Baltimore County',
+'Lucas County',
+'Guilford County',
+'Hillsborough County',
+'Multnomah County',
+'Santa Barbara County',
+'Denver County',
+'District of Columbia',
+'Milwaukee County',
+'Alameda County',
+'San Francisco County',
+'Norfolk city',
+'Oklahoma County',
+'Wake County',
+'Ada County',
+'Queens County',
+'New York County',          
+'Lubbock County',           
+'Ramsey County',
+'Weber County', 'Utah County']
     
     
     
