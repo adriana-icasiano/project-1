@@ -7,20 +7,24 @@ Explore US and Europe e-scooter businesses to understand the correlations betwee
 (to add heatmaps and map with operators and with info box)
 
 ## Hypothesis 1
-Null Hypothesis: Income per capita does not impact the popularity of e-scooters.
-Alternative Hypothesis: The popularity of e-scooters depends on income per capita. The higher the income per capita the higher the popularity. 
+> Null Hypothesis: Income per capita does not impact the popularity of e-scooters.
+
+> Alternative Hypothesis: The popularity of e-scooters depends on income per capita. The higher the income per capita the higher the popularity. 
 
 ## Hypothesis 2
-Null Hypothesis: The number of minutes spent walking to work does not impact the popularity of e-scooters.
-Alternative Hypothesis: E-scooters are popular for a range of minutes spent walking to work.
+> Null Hypothesis: The number of minutes spent walking to work does not impact the popularity of e-scooters.
+
+> Alternative Hypothesis: E-scooters are popular for a range of minutes spent walking to work.
 
 ## Hypothesis 3
-Null Hypothesis: The use of e-scooters does not reduces pollution.
-Alternative Hypothesis: The use of e-scooters reduces pollution.
+> Null Hypothesis: The use of e-scooters does not reduces pollution.
+
+> Alternative Hypothesis: The use of e-scooters reduces pollution.
 
 ## Hypothesis 4
-Null Hypothesis: The use of drug and alcohol does not increase the rate of injuries.
-Alternative Hypothsis: The use of drug and alcohol increases the rate of injuries.
+> Null Hypothesis: The use of drug and alcohol does not increase the rate of injuries.
+
+> Alternative Hypothsis: The use of drug and alcohol increases the rate of injuries.
 
 Based on the injuries under influence pie chart which shows that about 10.3% of injuries are associated with drug and alcohol use. Of the 10.3%   
 
