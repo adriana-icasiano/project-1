@@ -2,7 +2,15 @@
 ## Project Outline
 Explore US and Europe e-scooter businesses to understand the correlations between rate of injuries, city demographic, lawsuits, regulations (helmets and age limit) and popularity. Using existing and accessible data on e-scooters, we would like to understand the pros and cons of e-scooters in order to form an educated opinion on whether e-scooters should be banned or expanded and the types of regulations that should be recommended.
 
-
+## Table of Cotents
+* [Background](https://github.com/adriana-icasiano/project-1#Background)
+* [Hypothesis 1](https://github.com/adriana-icasiano/project-1#Hypothesis-1)
+* [Hypothesis 2](https://github.com/adriana-icasiano/project-1#Hypothesis-2)
+* [Hypothesis 3](https://github.com/adriana-icasiano/project-1#Hypothesis-3)
+* [Hypothesis 4](https://github.com/adriana-icasiano/project-1#Hypothesis-4)
+* [Conclusion](https://github.com/adriana-icasiano/project-1#Conclusion)
+* [Data Sources for Data Analysis](https://github.com/adriana-icasiano/project-1#data-sources-for-data-analysis)
+* [Other Sources](https://github.com/adriana-icasiano/project-1#other-sources)
 ## Background
 (to add heatmaps and map with operators and with info box)
 
@@ -42,7 +50,7 @@ Based on the injuries under influence pie chart which shows that about 10.3% of 
 ## Conclusion
 
 
-## Data Source for Analysis
+## Data Source for Data Analysis
 [Consumer Product Safety Commission (CPSC) - NEISS (National Electronic Injuries Surveillance System) Query](https://www.cpsc.gov/cgibin/NEISSQuery/UserCriteria.aspx?UserAff=5x08cgz9T6YPDAZJzvlZjA%3d%3d&UserAffOther=9OYR9kUytIsLilKZieD5xg%3d%3d) - Injuries related to e-scooters are available for query from this official website. 
 
 [NABSA (
