@@ -22,13 +22,15 @@ Alternative Hypothesis: The use of e-scooters reduces pollution.
 Null Hypothesis: The use of drug and alcohol does not increase the rate of injuries.
 Alternative Hypothsis: The use of drug and alcohol increases the rate of injuries.
 
-Based on the injuries under influence pie chart which shows that about 10.3% of injuries are associated with drug and alcohol use. This indicates that even when used  
+Based on the injuries under influence pie chart which shows that about 10.3% of injuries are associated with drug and alcohol use. Of the 10.3%   
 
-[](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Alcohol%20injuries.png)
+![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Alcohol%20injuries.png)
 
-[](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Drug%20related%20injuries.png)
+![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Drug%20related%20injuries.png)
 
-[](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Intoxication%20injuries.png)
+![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Intoxication%20injuries.png)
+
+![](https://github.com/adriana-icasiano/project-1/blob/b815e991eee07d85043fcdf3d40c8cd3bae0ae6c/DATA/Injuries/injuries%20by%20age.PNG)
 
 ## Conclusion
 
