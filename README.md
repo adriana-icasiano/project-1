@@ -4,7 +4,7 @@ Explore US and Europe e-scooter businesses to understand the correlations betwee
 
 
 ## Background
-
+(to add heatmaps and map with operators and with info box)
 
 ## Hypothesis 1
 Null Hypothesis: Income per capita does not impact the popularity of e-scooters.
