@@ -43,7 +43,9 @@ Based on the injuries under influence pie chart which shows that about 10.3% of 
 [Consumer Product Safety Commission (CPSC) - NEISS (National Electronic Injuries Surveillance System) Query](https://www.cpsc.gov/cgibin/NEISSQuery/UserCriteria.aspx?UserAff=5x08cgz9T6YPDAZJzvlZjA%3d%3d&UserAffOther=9OYR9kUytIsLilKZieD5xg%3d%3d) - Injuries related to e-scooters are available for query from this official website. 
 
 [NABSA (
-North American Bike Share Association)  - GBFS (General Bikeshare Feed Specification)](https://github.com/NABSA/gbfs/blob/master/systems.csv)
+North American Bike Share Association)  - GBFS (General Bikeshare Feed Specification)](https://github.com/NABSA/gbfs/blob/master/systems.csv) - Real-time e-scooters availability status by operators for certain cities.
+
+Census demographic data
 
 # Other Sources 
 [Bikeshare (Docked and Dockless) and E-scooter Systems by Year and City Served] https://catalog.data.gov/dataset/bikeshare-docked-and-dockless-and-e-scooter-systems-by-year-and-city-served
