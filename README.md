@@ -11,10 +11,13 @@ Explore US and Europe e-scooter businesses to understand the correlations betwee
 
 > Alternative Hypothesis: The popularity of e-scooters depends on income per capita. The higher the income per capita the higher the popularity. 
 
+![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_income_per_cap_county.png)
 ## Hypothesis 2
 > Null Hypothesis: The number of minutes spent walking to work does not impact the popularity of e-scooters.
 
 > Alternative Hypothesis: E-scooters are popular for a range of minutes spent walking to work.
+
+![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_mean_walk_county.png)
 
 ## Hypothesis 3
 > Null Hypothesis: The use of e-scooters does not reduces pollution.
