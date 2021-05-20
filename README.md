@@ -27,6 +27,9 @@ Explore US and Europe e-scooter businesses to understand the correlations betwee
 
 ![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_mean_walk_county.png)
 
+![](https://github.com/adriana-icasiano/project-1/blob/760353e87f5dba5282188219dfc846bfb5d136c2/DATA/demographic/plots/TripDurations.png)
+
+![](https://github.com/adriana-icasiano/project-1/blob/760353e87f5dba5282188219dfc846bfb5d136c2/DATA/demographic/plots/Commutedistance.png)
 ## Hypothesis 3
 > Null Hypothesis: The use of e-scooters does not reduces pollution.
 
@@ -43,9 +46,9 @@ Based on the injuries under influence pie chart which shows that about 10.3% of 
 
 ![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Drug%20related%20injuries.png)
 
+The graph provides the time and distance traveled by bike, walk, and segway/e-scooters, and indicates that the time the use of e-scooters is lowest.
 ![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Intoxication%20injuries.png)
 
-![](https://github.com/adriana-icasiano/project-1/blob/b815e991eee07d85043fcdf3d40c8cd3bae0ae6c/DATA/Injuries/injuries%20by%20age.PNG)
 
 ## Conclusion
 
