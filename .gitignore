@@ -11,6 +11,8 @@ __pycache__/
 # C extensions
 *.so
 
+cc-est2019-all.csv
+
 # Distribution / packaging
 .Python
 build/
