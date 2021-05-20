@@ -27,6 +27,7 @@ Explore US and Europe e-scooter businesses to understand the correlations betwee
 
 ![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_mean_walk_county.png)
 
+The graph provides the time and distance traveled by bike, walk, and segway/e-scooters, and indicates that the time the use of e-scooters is lowest.E-scooters are use for short trips and intermediary transport to groceries, and train station. 
 ![](https://github.com/adriana-icasiano/project-1/blob/760353e87f5dba5282188219dfc846bfb5d136c2/DATA/demographic/plots/TripDurations.png)
 
 1[](https://github.com/adriana-icasiano/project-1/blob/7910943657733be83a8bed575f142c33dfdc9bf2/DATA/demographic/plots/genderusers.png)
@@ -46,7 +47,6 @@ Based on the injuries under influence pie chart which shows that about 10.3% of 
 
 ![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Drug%20related%20injuries.png)
 
-The graph provides the time and distance traveled by bike, walk, and segway/e-scooters, and indicates that the time the use of e-scooters is lowest.
 ![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Intoxication%20injuries.png)
 
 
