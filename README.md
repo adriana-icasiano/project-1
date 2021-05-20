@@ -29,7 +29,7 @@ Explore US and Europe e-scooter businesses to understand the correlations betwee
 
 ![](https://github.com/adriana-icasiano/project-1/blob/760353e87f5dba5282188219dfc846bfb5d136c2/DATA/demographic/plots/TripDurations.png)
 
-![](https://github.com/adriana-icasiano/project-1/blob/760353e87f5dba5282188219dfc846bfb5d136c2/DATA/demographic/plots/Commutedistance.png)
+1[](https://github.com/adriana-icasiano/project-1/blob/7910943657733be83a8bed575f142c33dfdc9bf2/DATA/demographic/plots/genderusers.png)
 ## Hypothesis 3
 > Null Hypothesis: The use of e-scooters does not reduces pollution.
 
