@@ -6,7 +6,7 @@ Explore US and Europe e-scooter businesses to understand the correlations betwee
 * [Team](https://github.com/adriana-icasiano/project-1#Team)
 * [Our Questions](https://github.com/adriana-icasiano/project-1#Our-Questions)
 * [Workflow](https://github.com/adriana-icasiano/project-1#Workflow)
-* [Data](https://github.com/adriana-icasiano/project-1#Data)
+* [Data Sources](https://github.com/adriana-icasiano/project-1#Data-sources)
 * [Data Exploration](https://github.com/adriana-icasiano/project-1#Data-Exploration)
 * [Data Analysis](https://github.com/adriana-icasiano/project-1#Data-Analysis)
   * [Demographics](https://github.com/adriana-icasiano/project-1#Demographics)
@@ -42,7 +42,7 @@ What can e-scooter rental/ sellers do to alleviate the problems?<br>
 ## Workflow
 (to add picture)
 
-## Data
+## Data Sources
 ### APIs
 >Gmaps <br>
 >[NABSA (
