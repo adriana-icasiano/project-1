@@ -9,17 +9,24 @@ Explore US and Europe e-scooter businesses to understand the correlations betwee
 * [Data](https://github.com/adriana-icasiano/project-1#Data)
 * [Data Exploration](https://github.com/adriana-icasiano/project-1#Data-Exploration)
 * [Data Analysis](https://github.com/adriana-icasiano/project-1#Data-Analysis)
-* [Findings](https://github.com/adriana-icasiano/project-1#Findings)
+  * [Demographics](https://github.com/adriana-icasiano/project-1#Demographics)
+    * [Population](https://github.com/adriana-icasiano/project-1#Population)
+    * [Age](https://github.com/adriana-icasiano/project-1#Age)
+    * [Mean Walk Minutes to Work](https://github.com/adriana-icasiano/project-1#Mean-Walk-Minutes-to-Work)
+    * [Income per Capita](https://github.com/adriana-icasiano/project-1#Income-per-capita)
+    * [Trip Duration](https://github.com/adriana-icasiano/project-1#Trip-duration)
+    * [Gender](https://github.com/adriana-icasiano/project-1#gender)
+    * [Urban vs Rural](https://github.com/adriana-icasiano/project-1#urban-vs-rural)
+    * [Injuries](https://github.com/adriana-icasiano/project-1#injuries)
+* [Findings](https://github.com/adriana-icasiano/project-1#Injuries)
 * [Conclusion](https://github.com/adriana-icasiano/project-1#Conclusion)
-* [Data Sources for Data Analysis](https://github.com/adriana-icasiano/project-1#data-sources-for-data-analysis)
-* [Other Sources](https://github.com/adriana-icasiano/project-1#other-sources)
 
 ## Team
-Harlan Brasek
-Adriana Icasiano
-Emily Leniart
-Saumya Pandey
-Rasaq Sule-Odu
+Harlan Brasek <br>
+Adriana Icasiano <br>
+Emily Leniart<br>
+Saumya Pandey<br>
+Rasaq Sule-Odu<br>
 
 ## Our Questions
 
@@ -43,11 +50,11 @@ North American Bike Share Association)  - GBFS (General Bikeshare Feed Specifica
 
 >Census demographic data
 
-Queries
+### Queries
 
-[Consumer Product Safety Commission (CPSC) - NEISS (National Electronic Injuries Surveillance System) Query](https://www.cpsc.gov/cgibin/NEISSQuery/UserCriteria.aspx?UserAff=5x08cgz9T6YPDAZJzvlZjA%3d%3d&UserAffOther=9OYR9kUytIsLilKZieD5xg%3d%3d) - Injuries related to e-scooters are available for query from this official website. 
+>[Consumer Product Safety Commission (CPSC) - NEISS (National Electronic Injuries Surveillance System) Query](https://www.cpsc.gov/cgibin/NEISSQuery/UserCriteria.aspx?UserAff=5x08cgz9T6YPDAZJzvlZjA%3d%3d&UserAffOther=9OYR9kUytIsLilKZieD5xg%3d%3d) - Injuries related to e-scooters are available for query from this official website. 
 
-
+>[National Household Travel Survey](https://nhts.ornl.gov/)
 
 ## Data Exploration
 Use Google to search for a “Lime API”
@@ -63,34 +70,39 @@ We also created a layered markers to understand the geographical distribution of
 
 ## Data Analysis
 
-### Census Data
+### Demographics
 #### Population 
+Source: Census.gov<br>
 #### Age
-#### Mean Walk Minutes to Work
-Of 50 randomly sampled counties*, the mean walking minutes to work for each county varies from 0.1 minute to 9.7 minute, with an exception of one county (23.5 minute).
+Source: Census.gov<br>
 
+#### Mean Walk Minutes to Work
+Source: Census.gov<br>
+Of 50 randomly sampled counties*, the mean walking minutes to work for each county varies from 0.1 minute to 9.7 minute, with an exception of one county (23.5 minute).<br>
 ![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_mean_walk_county.png)
 #### Income per Capita
-For the same 50 counties*, the Income Per Capita by County varies between $7,887 to $44,683. Similar to other public transport system, it is priced at a affordable rate and serves a broad population.
+Source: Census.gov<br>
+For the same 50 counties*, the Income Per Capita by County varies between $7,887 to $44,683. Similar to other public transport system, it is priced at a affordable rate and serves a broad population.<br>
 
 ![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_income_per_cap_county.png)
 
-#### Income per Capita
+#### Trip Duration
+Source: National Household Travel Survey<br>
 The graph provides the time and distance traveled by bike, walk, and segway/e-scooters, and indicates that the time the use of e-scooters is lowest.E-scooters are use for short trips and intermediary transport to groceries, and train station. 
 ![](https://github.com/adriana-icasiano/project-1/blob/760353e87f5dba5282188219dfc846bfb5d136c2/DATA/demographic/plots/TripDurations.png)
 
-1[](https://github.com/adriana-icasiano/project-1/blob/7910943657733be83a8bed575f142c33dfdc9bf2/DATA/demographic/plots/genderusers.png)
-#### Trip Duration
 #### Gender
+Source: National Household Travel Survey<br>
+[](https://github.com/adriana-icasiano/project-1/blob/7910943657733be83a8bed575f142c33dfdc9bf2/DATA/demographic/plots/genderusers.png)
+
 #### Urban vs Rural
+Source: National Household Travel Survey<br>
 
 ### Injuries 
-
-![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Alcohol%20injuries.png)
-
-![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Drug%20related%20injuries.png)
-
-![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Intoxication%20injuries.png)
+Source: National Electronic Injuries Surveillance System (NEISS) <br>
+![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Alcohol%20injuries.png) <br>
+![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Drug%20related%20injuries.png)<br>
+![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Intoxication%20injuries.png)<br>
 
 ## Findings
 ### The use of scooters resembles the use of public transportation for short distance and local travels based on:
