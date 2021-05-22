@@ -1,6 +1,6 @@
-# project-1
+# E-scooters: The Good, The Bad, and The Ugly
 ## Project Outline
-Explore US and Europe e-scooter businesses to understand the correlations between rate of injuries, city demographic, lawsuits, regulations (helmets and age limit) and popularity. Using existing and accessible data on e-scooters, we would like to understand the pros and cons of e-scooters in order to form an educated opinion on whether e-scooters should be banned or expanded and the types of regulations that should be recommended.
+Explore US and Europe e-scooter businesses to understand the correlations between rate of injuries, city demographic, lawsuits, regulations (helmets and age limit) and popularity. Using accessible data on e-scooters, we would like to understand the pros and cons of e-scooters in order to form an educated opinion on whether e-scooters should be banned or expanded and the types of regulations that should be recommended.
 
 ## Table of Cotents
 * [Team](https://github.com/adriana-icasiano/project-1#Team)
@@ -44,16 +44,14 @@ What can e-scooter rental/ sellers do to alleviate the problems?<br>
 
 ## Data
 ### APIs
->Gmaps
+>Gmaps <br>
 >[NABSA (
 North American Bike Share Association)  - GBFS (General Bikeshare Feed Specification)](https://github.com/NABSA/gbfs/blob/master/systems.csv) - Real-time e-scooters availability status by operators for certain cities.
-
->Census demographic data
+>Census demographic data <br>
 
 ### Queries
 
->[Consumer Product Safety Commission (CPSC) - NEISS (National Electronic Injuries Surveillance System) Query](https://www.cpsc.gov/cgibin/NEISSQuery/UserCriteria.aspx?UserAff=5x08cgz9T6YPDAZJzvlZjA%3d%3d&UserAffOther=9OYR9kUytIsLilKZieD5xg%3d%3d) - Injuries related to e-scooters are available for query from this official website. 
-
+>[Consumer Product Safety Commission (CPSC) - NEISS (National Electronic Injuries Surveillance System) Query](https://www.cpsc.gov/cgibin/NEISSQuery/UserCriteria.aspx?UserAff=5x08cgz9T6YPDAZJzvlZjA%3d%3d&UserAffOther=9OYR9kUytIsLilKZieD5xg%3d%3d) - Injuries related to e-scooters are available for query from this official website.  <br>
 >[National Household Travel Survey](https://nhts.ornl.gov/)
 
 ## Data Exploration
@@ -62,10 +60,12 @@ Found a github account for NABSA ( North American Bike Share Association) - GBFS
 Obtained a csv file with a list of API addresses for certain cities
 Retrieved for geocodes for available e-scooters
 ![](https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/iterrows_to_get_url_cities.PNG)<br>
+Using gecodes, retrieved the cities names from gmaps.
+![](https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/retrieve_city_using_geocode.PNG)<br>
+Generated heatmap using cities, geocodes and bike counts.
 ![](https://github.com/adriana-icasiano/project-1/blob/441b626124a5e1f1d9499e2ebc1d457fa5e237a4/VISUALS/heatmap.PNG)<br>
 
 We also created a layered markers to understand the geographical distribution of each operator using the sample codes from gmaps. From here we exported the gmaps to a html so that we can view the gmaps figure externally if we wanted to.
-![](https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/retrieve_city_using_geocode.PNG)<br>
 ![](https://github.com/adriana-icasiano/project-1/blob/a1ee4ba04a810ab243cd811dccec2ec61b34368f/VISUALS/operator_markers.PNG)<br>
 
 
