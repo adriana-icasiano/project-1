@@ -3,45 +3,88 @@
 Explore US and Europe e-scooter businesses to understand the correlations between rate of injuries, city demographic, lawsuits, regulations (helmets and age limit) and popularity. Using existing and accessible data on e-scooters, we would like to understand the pros and cons of e-scooters in order to form an educated opinion on whether e-scooters should be banned or expanded and the types of regulations that should be recommended.
 
 ## Table of Cotents
-* [Background](https://github.com/adriana-icasiano/project-1#Background)
-* [Hypothesis 1](https://github.com/adriana-icasiano/project-1#Hypothesis-1)
-* [Hypothesis 2](https://github.com/adriana-icasiano/project-1#Hypothesis-2)
-* [Hypothesis 3](https://github.com/adriana-icasiano/project-1#Hypothesis-3)
-* [Hypothesis 4](https://github.com/adriana-icasiano/project-1#Hypothesis-4)
+* [Team](https://github.com/adriana-icasiano/project-1#Team)
+* [Our Questions](https://github.com/adriana-icasiano/project-1#Our-Questions)
+* [Workflow](https://github.com/adriana-icasiano/project-1#Workflow)
+* [Data](https://github.com/adriana-icasiano/project-1#Data)
+* [Data Exploration](https://github.com/adriana-icasiano/project-1#Data-Exploration)
+* [Data Analysis](https://github.com/adriana-icasiano/project-1#Data-Analysis)
+* [Findings](https://github.com/adriana-icasiano/project-1#Findings)
 * [Conclusion](https://github.com/adriana-icasiano/project-1#Conclusion)
 * [Data Sources for Data Analysis](https://github.com/adriana-icasiano/project-1#data-sources-for-data-analysis)
 * [Other Sources](https://github.com/adriana-icasiano/project-1#other-sources)
-## Background
-(to add heatmaps and map with operators and with info box)
 
-## Data Exploration, Clean Up and Analysis
-> Null Hypothesis: Income per capita does not impact the popularity of e-scooters.
+## Team
+Harlan Brasek
+Adriana Icasiano
+Emily Leniart
+Saumya Pandey
+Rasaq Sule-Odu
 
-> Alternative Hypothesis: The popularity of e-scooters depends on income per capita. The higher the income per capita the higher the popularity. 
+## Our Questions
 
-![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_income_per_cap_county.png)
-## Hypothesis 2
-> Null Hypothesis: The number of minutes spent walking to work does not impact the popularity of e-scooters.
+Faced with the rapid growth of e-scooters, local governments from Europe and US are faced with important regulatory questions. Local government responses to the above pros and cons vary from banning to piloting e-scooter programs to expansion. Many developed new regulations to cope with the problems.
 
-> Alternative Hypothesis: E-scooters are popular for a range of minutes spent walking to work.
+Should e-scooters be banned or expanded?
+What is the demographic of cities where e-scooters are currently used?
+What is the average distance and time traveled via e-scooters?
+What are the injuries related to e-scooters? 
+What type of regulations alleviate the problems?
+What can e-scooter rental/ sellers do to alleviate the problems?
+
+## Workflow
+(to add picture)
+
+## Data
+### APIs
+>Gmaps
+>[NABSA (
+North American Bike Share Association)  - GBFS (General Bikeshare Feed Specification)](https://github.com/NABSA/gbfs/blob/master/systems.csv) - Real-time e-scooters availability status by operators for certain cities.
+
+>Census demographic data
+
+Queries
+
+[Consumer Product Safety Commission (CPSC) - NEISS (National Electronic Injuries Surveillance System) Query](https://www.cpsc.gov/cgibin/NEISSQuery/UserCriteria.aspx?UserAff=5x08cgz9T6YPDAZJzvlZjA%3d%3d&UserAffOther=9OYR9kUytIsLilKZieD5xg%3d%3d) - Injuries related to e-scooters are available for query from this official website. 
+
+
+
+## Data Exploration
+Use Google to search for a “Lime API”
+Found a github account for NABSA ( North American Bike Share Association) - GBFS (General Bikeshare Feed Specification) 
+Obtained a csv file with a list of API addresses for certain cities
+Retrieved for geocodes for available e-scooters
+
+![](https://github.com/adriana-icasiano/project-1/blob/441b626124a5e1f1d9499e2ebc1d457fa5e237a4/VISUALS/heatmap.PNG)
+
+We also created a layered markers to understand the geographical distribution of each operator using the sample codes from gmaps. From here we exported the gmaps to a html so that we can view the gmaps figure externally if we wanted to.
+![](https://github.com/adriana-icasiano/project-1/blob/441b626124a5e1f1d9499e2ebc1d457fa5e237a4/VISUALS/051821_escooter_map_layered_markers.html)
+
+
+## Data Analysis
+
+### Census Data
+#### Population 
+#### Age
+#### Mean Walk Minutes to Work
+Of 50 randomly sampled counties*, the mean walking minutes to work for each county varies from 0.1 minute to 9.7 minute, with an exception of one county (23.5 minute).
 
 ![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_mean_walk_county.png)
+#### Income per Capita
+For the same 50 counties*, the Income Per Capita by County varies between $7,887 to $44,683. Similar to other public transport system, it is priced at a affordable rate and serves a broad population.
 
+![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_income_per_cap_county.png)
+
+#### Income per Capita
 The graph provides the time and distance traveled by bike, walk, and segway/e-scooters, and indicates that the time the use of e-scooters is lowest.E-scooters are use for short trips and intermediary transport to groceries, and train station. 
 ![](https://github.com/adriana-icasiano/project-1/blob/760353e87f5dba5282188219dfc846bfb5d136c2/DATA/demographic/plots/TripDurations.png)
 
 1[](https://github.com/adriana-icasiano/project-1/blob/7910943657733be83a8bed575f142c33dfdc9bf2/DATA/demographic/plots/genderusers.png)
-## Hypothesis 3
-> Null Hypothesis: The use of e-scooters does not reduces pollution.
+#### Trip Duration
+#### Gender
+#### Urban vs Rural
 
-> Alternative Hypothesis: The use of e-scooters reduces pollution.
-
-## Hypothesis 4
-> Null Hypothesis: The use of drug and alcohol does not increase the rate of injuries.
-
-> Alternative Hypothsis: The use of drug and alcohol increases the rate of injuries.
-
-Based on the injuries under influence pie chart which shows that about 10.3% of injuries are associated with drug and alcohol use. Of the 10.3%   
+### Injuries 
 
 ![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Alcohol%20injuries.png)
 
@@ -49,25 +92,28 @@ Based on the injuries under influence pie chart which shows that about 10.3% of 
 
 ![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Intoxication%20injuries.png)
 
+## Findings
+### The use of scooters resembles the use of public transportation for short distance and local travels based on:
+>1) Demographics of cities that use e-scooters differ from the rest of the US.
+>2) Average distance traveled ~5 miles
+>3) Average Time Duration ~20 mins.
+>4) Mean walking minutes to work between 0.1 to 10 minutes.
+>5) Income per capita varies
+### Injuries are preventable with proper regulations.
+### Percentage of women user is lower than men users due to safety concerns.
+### What can government and companies do to address safety issues?
+#### Injuries
+>1) Limit riding on scooter/bike lanes
+>2) Set curfew 
+>3) Set age limit
+>4) Require helmets
+>5) Prevent riders from drinking and riding
+>6) Display warning about injuries
+#### Gender gap in usage of e-scooter
+> Companies should focus on a safer design for women to ensure safety
 
 ## Conclusion
+With productive and thoughtful government regulations, the pros of e-scooter use outweigh the cons.
 
 
-## Data Source for Data Analysis
-[Consumer Product Safety Commission (CPSC) - NEISS (National Electronic Injuries Surveillance System) Query](https://www.cpsc.gov/cgibin/NEISSQuery/UserCriteria.aspx?UserAff=5x08cgz9T6YPDAZJzvlZjA%3d%3d&UserAffOther=9OYR9kUytIsLilKZieD5xg%3d%3d) - Injuries related to e-scooters are available for query from this official website. 
 
-[NABSA (
-North American Bike Share Association)  - GBFS (General Bikeshare Feed Specification)](https://github.com/NABSA/gbfs/blob/master/systems.csv) - Real-time e-scooters availability status by operators for certain cities.
-
-Census demographic data
-
-# Other Sources 
-[Bikeshare (Docked and Dockless) and E-scooter Systems by Year and City Served] https://catalog.data.gov/dataset/bikeshare-docked-and-dockless-and-e-scooter-systems-by-year-and-city-served
-
-[Scooter trips data] (https://data.cityofchicago.org/Transportation/E-Scooter-Trips-2019-Pilot/2kfw-zvte)
-
-[NACTO - Bike Share and Shared Micromobility Initiative] (https://nacto.org/program/bike-share-initiative/)
-
-[Estimated Incidence of Electric Scooter Injuries in the US From 2014 to 2019] (https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770043?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JAMA_Network_Open_TrendMD_1&utm_term=083120&origin=da441ddb109f2560321eadff4d6649f2)
-
-[Metro DC Capital Share System Data] (https://www.capitalbikeshare.com/system-data)
