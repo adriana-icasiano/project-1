@@ -69,13 +69,30 @@ We also created a layered markers to understand the geographical distribution of
 ![](https://github.com/adriana-icasiano/project-1/blob/a1ee4ba04a810ab243cd811dccec2ec61b34368f/VISUALS/operator_markers.PNG)<br>
 
 
+For the age data, we had to download a large series for files as we could only download data for each individual state<br>
+![](https://github.com/adriana-icasiano/project-1/blob/4accf1ca1844fa7f986dab0443748083bd3fdd1e/census-lime/pictures/csvs.png)<br>
+In order to sort through this, we had to loop through the files to create a single CSV<br>
+![](https://github.com/adriana-icasiano/project-1/blob/4accf1ca1844fa7f986dab0443748083bd3fdd1e/census-lime/pictures/CSVcompile.png)<br>
+
+The CSV for additional census data from Kaggle had to be narrowed down to the counties we needed to investigate.<br>
+One issue is states share county names so we had to elimate the ones that we did not need, otherwise the analysis would be inaccurate.<br>
+We ended up going from 4000 rows to around 230 and then down to the 60 that we needed.<br>
+![](https://github.com/adriana-icasiano/project-1/blob/4accf1ca1844fa7f986dab0443748083bd3fdd1e/census-lime/pictures/dups.png)<br>
+
 ## Data Analysis
 
 ### Demographics
 #### Population 
 Data Source: Census.gov<br>
+A comparison of the populations between counties where Lime operates and the entire US.  The average for Lime is higher and the upper bound for the entire US does not even touch the first quantile for Lime<br>
+![](https://github.com/adriana-icasiano/project-1/blob/4accf1ca1844fa7f986dab0443748083bd3fdd1e/census-lime/Graphs/USBoxplot.png)
+![](https://github.com/adriana-icasiano/project-1/blob/4accf1ca1844fa7f986dab0443748083bd3fdd1e/census-lime/Graphs/LimeBoxplot.png)<br>
+
 #### Age
 Data Source: Census.gov<br>
+The range in ages is very different for Lime counties.  There is a larger cluster of people in their twenties and thirties living in counties where Lime operates<br>
+![](https://github.com/adriana-icasiano/project-1/blob/4accf1ca1844fa7f986dab0443748083bd3fdd1e/census-lime/Graphs/LimeAge.png)
+![](https://github.com/adriana-icasiano/project-1/blob/4accf1ca1844fa7f986dab0443748083bd3fdd1e/census-lime/Graphs/USAge.png)<br>
 
 #### Mean Walk Minutes to Work
 Data Source: Census.gov<br>
