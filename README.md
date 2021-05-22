@@ -22,37 +22,37 @@ Explore US and Europe e-scooter businesses to understand the correlations betwee
 * [Conclusion](https://github.com/adriana-icasiano/project-1#Conclusion)
 
 ## Team
-Harlan Brasek <br>
-Adriana Icasiano <br>
-Emily Leniart<br>
-Saumya Pandey<br>
-Rasaq Sule-Odu<br>
+1) Harlan Brasek <br>
+2) Adriana Icasiano <br>
+3) Emily Leniart<br>
+4) Saumya Pandey<br>
+5) Rasaq Sule-Odu<br>
 
 ## Our Questions
 
 Faced with the rapid growth of e-scooters, local governments from Europe and US are faced with important regulatory questions. Local government responses to the above pros and cons vary from banning to piloting e-scooter programs to expansion. Many developed new regulations to cope with the problems.
 
-Should e-scooters be banned or expanded? <br>
-What is the demographic of cities where e-scooters are currently used? <br>
-What is the average distance and time traveled via e-scooters?<br>
-What are the injuries related to e-scooters? <br>
-What type of regulations alleviate the problems?<br>
-What can e-scooter rental/ sellers do to alleviate the problems?<br>
+1) Should e-scooters be banned or expanded? <br>
+2) What is the demographic of cities where e-scooters are currently used? <br>
+3) What is the average distance and time traveled via e-scooters?<br>
+4) What are the injuries related to e-scooters? <br>
+5) What type of regulations alleviate the problems?<br>
+6) What can e-scooter rental/ sellers do to alleviate the problems?<br>
 
 ## Workflow
 (to add picture)
 
 ## Data Sources
 ### APIs
->Gmaps <br>
->[NABSA (
+>1) Gmaps <br>
+>2) [NABSA (
 North American Bike Share Association)  - GBFS (General Bikeshare Feed Specification)](https://github.com/NABSA/gbfs/blob/master/systems.csv) - Real-time e-scooters availability status by operators for certain cities.
->Census demographic data <br>
+>3) Census demographic data <br>
 
 ### Queries
 
->[Consumer Product Safety Commission (CPSC) - NEISS (National Electronic Injuries Surveillance System) Query](https://www.cpsc.gov/cgibin/NEISSQuery/UserCriteria.aspx?UserAff=5x08cgz9T6YPDAZJzvlZjA%3d%3d&UserAffOther=9OYR9kUytIsLilKZieD5xg%3d%3d) - Injuries related to e-scooters are available for query from this official website.  <br>
->[National Household Travel Survey](https://nhts.ornl.gov/)
+>1) [Consumer Product Safety Commission (CPSC) - NEISS (National Electronic Injuries Surveillance System) Query](https://www.cpsc.gov/cgibin/NEISSQuery/UserCriteria.aspx?UserAff=5x08cgz9T6YPDAZJzvlZjA%3d%3d&UserAffOther=9OYR9kUytIsLilKZieD5xg%3d%3d) - Injuries related to e-scooters are available for query from this official website.  <br>
+>2) [National Household Travel Survey](https://nhts.ornl.gov/)
 
 ## Data Exploration
 Use Google to search for a “Lime API”
