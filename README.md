@@ -32,12 +32,12 @@ Rasaq Sule-Odu<br>
 
 Faced with the rapid growth of e-scooters, local governments from Europe and US are faced with important regulatory questions. Local government responses to the above pros and cons vary from banning to piloting e-scooter programs to expansion. Many developed new regulations to cope with the problems.
 
-Should e-scooters be banned or expanded?
-What is the demographic of cities where e-scooters are currently used?
-What is the average distance and time traveled via e-scooters?
-What are the injuries related to e-scooters? 
-What type of regulations alleviate the problems?
-What can e-scooter rental/ sellers do to alleviate the problems?
+Should e-scooters be banned or expanded? <br>
+What is the demographic of cities where e-scooters are currently used? <br>
+What is the average distance and time traveled via e-scooters?<br>
+What are the injuries related to e-scooters? <br>
+What type of regulations alleviate the problems?<br>
+What can e-scooter rental/ sellers do to alleviate the problems?<br>
 
 ## Workflow
 (to add picture)
@@ -61,45 +61,49 @@ Use Google to search for a “Lime API”
 Found a github account for NABSA ( North American Bike Share Association) - GBFS (General Bikeshare Feed Specification) 
 Obtained a csv file with a list of API addresses for certain cities
 Retrieved for geocodes for available e-scooters
-
-![](https://github.com/adriana-icasiano/project-1/blob/441b626124a5e1f1d9499e2ebc1d457fa5e237a4/VISUALS/heatmap.PNG)
+![]https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/iterrows_to_get_url_cities.PNG)<br>
+![](https://github.com/adriana-icasiano/project-1/blob/441b626124a5e1f1d9499e2ebc1d457fa5e237a4/VISUALS/heatmap.PNG)<br>
 
 We also created a layered markers to understand the geographical distribution of each operator using the sample codes from gmaps. From here we exported the gmaps to a html so that we can view the gmaps figure externally if we wanted to.
-![](https://github.com/adriana-icasiano/project-1/blob/441b626124a5e1f1d9499e2ebc1d457fa5e237a4/VISUALS/051821_escooter_map_layered_markers.html)
+![](https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/retrieve_city_using_geocode.PNG)<br>
+![](https://github.com/adriana-icasiano/project-1/blob/441b626124a5e1f1d9499e2ebc1d457fa5e237a4/VISUALS/051821_escooter_map_layered_markers.html)<br>
 
 
 ## Data Analysis
 
 ### Demographics
 #### Population 
-Source: Census.gov<br>
+Data Source: Census.gov<br>
 #### Age
-Source: Census.gov<br>
+Data Source: Census.gov<br>
 
 #### Mean Walk Minutes to Work
-Source: Census.gov<br>
+Data Source: Census.gov<br>
 Of 50 randomly sampled counties*, the mean walking minutes to work for each county varies from 0.1 minute to 9.7 minute, with an exception of one county (23.5 minute).<br>
 ![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_mean_walk_county.png)
 #### Income per Capita
-Source: Census.gov<br>
+Data Source: Census.gov<br>
 For the same 50 counties*, the Income Per Capita by County varies between $7,887 to $44,683. Similar to other public transport system, it is priced at a affordable rate and serves a broad population.<br>
 
 ![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_income_per_cap_county.png)
 
 #### Trip Duration
-Source: National Household Travel Survey<br>
+Data Source: National Household Travel Survey<br>
 The graph provides the time and distance traveled by bike, walk, and segway/e-scooters, and indicates that the time the use of e-scooters is lowest.E-scooters are use for short trips and intermediary transport to groceries, and train station. 
 ![](https://github.com/adriana-icasiano/project-1/blob/760353e87f5dba5282188219dfc846bfb5d136c2/DATA/demographic/plots/TripDurations.png)
 
 #### Gender
-Source: National Household Travel Survey<br>
+Data Source: National Household Travel Survey<br>
 [](https://github.com/adriana-icasiano/project-1/blob/7910943657733be83a8bed575f142c33dfdc9bf2/DATA/demographic/plots/genderusers.png)
 
 #### Urban vs Rural
-Source: National Household Travel Survey<br>
+Data Source: National Household Travel Survey<br>
 
 ### Injuries 
-Source: National Electronic Injuries Surveillance System (NEISS) <br>
+Data Source: National Electronic Injuries Surveillance System (NEISS) <br>
+
+![](https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/injuries_age_binning.PNG)<br>
+![](https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/injuries_age_group_by.PNG)<br>
 ![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Alcohol%20injuries.png) <br>
 ![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Drug%20related%20injuries.png)<br>
 ![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Intoxication%20injuries.png)<br>
