@@ -57,7 +57,14 @@ North American Bike Share Association)  - GBFS (General Bikeshare Feed Specifica
 ## Data Exploration
 Use Google to search for a “Lime API”
 Found a github account for NABSA ( North American Bike Share Association) - GBFS (General Bikeshare Feed Specification) 
-Obtained a csv file with a list of API addresses for certain cities
+Obtained a csv file with a list of API addresses for certain cities.
+To get started we first used data available from BIRD cities. We used the Latitude/Longitude coordinates to get the number of scooters in each city throughout the US. Generated a heatmap  for a better visualization depicting the distribution of BIRD scooters around the US.  
+The code can be found here.
+[the code](https://github.com/adriana-icasiano/project-1/blob/main/DATA/bird-us-cities/starter_escoot_project.ipynb)
+![](https://github.com/adriana-icasiano/project-1/blob/main/DATA/bird-us-cities/bird-code.png)
+The heatmap is as follows.
+![](https://github.com/adriana-icasiano/project-1/blob/main/DATA/bird-us-cities/bird_location.png)
+
 Retrieved for geocodes for available e-scooters
 ![](https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/iterrows_to_get_url_cities.PNG)<br>
 Using gecodes, retrieved the cities names from gmaps.
@@ -103,18 +110,36 @@ Data Source: Census.gov<br>
 From the 2000+ counties where Lime e-scooters are used, we randomly sampled 50 counties for plotting. Of 50 randomly sampled counties, the Income Per Capita by County varies between $7,887 to $44,683. Similar to other public transport system, it is priced at a affordable rate and serves a broad population.<br>
 
 ![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_income_per_cap_county.png)
+#### Average Trip Distances/Durations and Trip Reasons by Bikes,Segways/Scooters and Walk
 
-#### Trip Duration
 Data Source: National Household Travel Survey<br>
+(National household Travel Survey, which offers a nationally representative sample of how tens of thousands of U.S. individuals got around on a given day. It offers a National Representative Sample of how thousands of US citizens commute.)
+
+Due to the limited datsaset available for the scooters I combined these mini modes(biking, segways and scooters data) for my analysis.
+Using a combined travel data is justified as
+a)they travel roughly at the same speed.
+b)they all are supposed to be green modes of transport
+c)and ofcourse are dangerous/out of place in both sidewalks as well as in heavily traffic roads.
 The graph provides the time and distance traveled by bike, walk, and segway/e-scooters, and indicates that the time the use of e-scooters is lowest.E-scooters are use for short trips and intermediary transport to groceries, and train station. 
 ![](https://github.com/adriana-icasiano/project-1/blob/760353e87f5dba5282188219dfc846bfb5d136c2/DATA/demographic/plots/TripDurations.png)
+We found out that on an average vehicle trip distance for segways/scooters were not more than 5 miles and for bike its 3 miles. The trip duration indicates that the max trip duration ranges from 20 min in case of bikes to 10 min in case of scooters. Most of the people use these micromobilty devices to do short distance travels, getting meals, going to work, running errands, getting groceries. 
+![](https://github.com/adriana-icasiano/project-1/blob/4accf1ca1844fa7f986dab0443748083bd3fdd1e/DATA/demographic/plots/Commutedistance.png)
+![](https://github.com/adriana-icasiano/project-1/blob/main/DATA/demographic/Reason_for_trips.png)
+##### Takeaway
+These micromobility devices can really cutshort the small automobile trips and thereby help in reducing carbon emiison.
 
 #### Gender
 Data Source: National Household Travel Survey<br>
-[](https://github.com/adriana-icasiano/project-1/blob/7910943657733be83a8bed575f142c33dfdc9bf2/DATA/demographic/plots/genderusers.png)
+Another  standout pattern we found was  that Men are twice as likely than  women( 67 and 33) to use these micromobilty devices. One of the possible reasons for Women to shy away from embracing these devices is safety which could be attributed to the lack of proper bike lanes.  
+![](https://github.com/adriana-icasiano/project-1/blob/7910943657733be83a8bed575f142c33dfdc9bf2/DATA/demographic/plots/genderusers.png)
+##### Major takeaway: Working on the infrastructure can improve the success of these esccoters.
 
 #### Urban vs Rural
 Data Source: National Household Travel Survey<br>
+![](https://github.com/adriana-icasiano/project-1/blob/main/DATA/demographic/plots/urbanVsRural.png)
+Unsurprisingly,our finding also indicated that there is more success of these micromobilty devices in urban VS rural areas.
+
+
 
 ### Injuries 
 Data Source: National Electronic Injuries Surveillance System (NEISS) <br>
