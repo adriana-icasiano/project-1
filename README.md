@@ -79,11 +79,11 @@ Data Source: Census.gov<br>
 
 #### Mean Walk Minutes to Work
 Data Source: Census.gov<br>
-Of 50 randomly sampled counties*, the mean walking minutes to work for each county varies from 0.1 minute to 9.7 minute, with an exception of one county (23.5 minute).<br>
+From the 2000+ counties where Lime e-scooters are used, we randomly sampled 50 counties for plotting. Of 50 randomly sampled counties, the mean walking minutes to work for each county varies from 0.1 minute to 9.7 minute, with an exception of one county (23.5 minute).<br>
 ![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_mean_walk_county.png)
 #### Income per Capita
 Data Source: Census.gov<br>
-For the same 50 counties*, the Income Per Capita by County varies between $7,887 to $44,683. Similar to other public transport system, it is priced at a affordable rate and serves a broad population.<br>
+From the 2000+ counties where Lime e-scooters are used, we randomly sampled 50 counties for plotting. Of 50 randomly sampled counties, the Income Per Capita by County varies between $7,887 to $44,683. Similar to other public transport system, it is priced at a affordable rate and serves a broad population.<br>
 
 ![](https://github.com/adriana-icasiano/project-1/blob/3f1bb70caa2e2713b2a816ba26a24d61ea627b61/VISUALS/051921_bar_income_per_cap_county.png)
 
