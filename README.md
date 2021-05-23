@@ -40,7 +40,7 @@ Faced with the rapid growth of e-scooters, local governments from Europe and US 
 6) What can e-scooter rental/ sellers do to alleviate the problems?<br>
 
 ## Workflow
-![](https://github.com/adriana-icasiano/project-1/blob/3671ab514a1d3be88e05e66614d6c792adc375ca/VISUALS/workflow.PNG)
+![](VISUALS/workflow.PNG)
 
 ## Data Sources
 ### APIs
@@ -68,9 +68,9 @@ The heatmap is as follows.
 Retrieved for geocodes for available e-scooters
 ![](https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/iterrows_to_get_url_cities.PNG)<br>
 Using gecodes, retrieved the cities names from gmaps.
-![](https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/retrieve_city_using_geocode.PNG)<br>
+![](CODES/retrieve_city_using_geocode.PNG)<br>
 Generated heatmap using cities, geocodes and bike counts.
-![](https://github.com/adriana-icasiano/project-1/blob/441b626124a5e1f1d9499e2ebc1d457fa5e237a4/VISUALS/heatmap.PNG)<br>
+![](VISUALS/heatmap.PNG)<br>
 
 We also created a layered markers to understand the geographical distribution of each operator using the sample codes from gmaps. From here we exported the gmaps to a html so that we can view the gmaps figure externally if we wanted to.
 ![](https://github.com/adriana-icasiano/project-1/blob/a1ee4ba04a810ab243cd811dccec2ec61b34368f/VISUALS/operator_markers.PNG)<br>
@@ -136,21 +136,36 @@ Another  standout pattern we found was  that Men are twice as likely than  women
 
 #### Urban vs Rural
 Data Source: National Household Travel Survey<br>
-![](https://github.com/adriana-icasiano/project-1/blob/main/DATA/demographic/plots/urbanVsRural.png)
-Unsurprisingly,our finding also indicated that there is more success of these micromobilty devices in urban VS rural areas.
+![](DATA/demographic/plots/urbanVsRural.png)
+Unsurprisingly, our finding also indicated that there is more success of these micromobilty devices in urban as opposed to rural areas.
 
 
 
 ### Injuries 
 Data Source: National Electronic Injuries Surveillance System (NEISS) <br>
 
-![](https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/injuries_age_binning.PNG)<br>
-![](https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/injuries_age_group_by.PNG)<br>
-![](https://github.com/adriana-icasiano/project-1/blob/4cd8650d24fb6cb52a314c4cd1467a4533d6fae8/DATA/Injuries/injuries%20by%20age.PNG)<br>
-![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Alcohol%20injuries.png) <br>
-![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Drug%20related%20injuries.png)<br>
-![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Intoxication%20injuries.png)<br>
+![](CODES/injuries_age_binning.PNG)<br>
+![](CODES/injuries_age_group_by.PNG)<br>
 
+#### Intoxication Related Injuries
+
+Isolating the injuries relating to intoxication shows a surprisingly small percentage. This suggests that setting the age limit higher to avoid young drinkers causing injuries would be ineffective.
+
+
+![](DATA/Injuries/Intoxication_injuries.png)
+
+
+#### Types of Injuries
+
+Breaking down the injuries by injured area, it is immediately clear that the head and face are injured the most, just like with riding bikes. This suggests that regulators should require those riding e-scooters to wear helmets, just as they do for bikes.
+
+![Types of Injuries](DATA/Injuries/injury_chart.png)
+
+#### Disposition of Injuries
+
+E-scooter rides who get hurt and seek medical or other attention are treated, examined, and released the vast majority of time; therefore, the mortality rate due to e-scooters is extremely low.
+
+![Injury Disposition](DATA/Injuries/injury_disposition.png)
 ## Findings
 ### The use of scooters resembles the use of public transportation for short distance and local travels based on the following findings:
 >1) Demographics of cities that use e-scooters differ from the rest of the US.
@@ -162,12 +177,11 @@ Data Source: National Electronic Injuries Surveillance System (NEISS) <br>
 ### Percentage of women user is lower than men users due to safety concerns.
 ### What can government and companies do to address safety issues?
 #### Injuries
->1) Limit riding on scooter/bike lanes
->2) Set curfew 
->3) Set age limit
->4) Require helmets
->5) Prevent riders from drinking and riding
->6) Display warning about injuries
+1. Limit riding on scooter/bike lanes
+2. Set curfew 
+3. Require helmets
+4. Display warning about injuries
+
 #### Gender gap in usage of e-scooter
 > Companies should focus on a safer design for women to ensure safety
 
