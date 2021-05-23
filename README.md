@@ -14,7 +14,7 @@ Explore US and Europe e-scooter businesses to understand the correlations betwee
     * [Age](https://github.com/adriana-icasiano/project-1#Age)
     * [Mean Walk Minutes to Work](https://github.com/adriana-icasiano/project-1#Mean-Walk-Minutes-to-Work)
     * [Income per Capita](https://github.com/adriana-icasiano/project-1#Income-per-capita)
-    * [Trip Duration](https://github.com/adriana-icasiano/project-1#Trip-duration)
+    * [Trip Duration](https://github.com/adriana-icasiano/project-1#Average-Trip-Distances/Durations-and-Trip-Reasons-by-Bikes,Segways/Scooters-and-Walk)
     * [Gender](https://github.com/adriana-icasiano/project-1#gender)
     * [Urban vs Rural](https://github.com/adriana-icasiano/project-1#urban-vs-rural)
     * [Injuries](https://github.com/adriana-icasiano/project-1#injuries)
@@ -40,7 +40,7 @@ Faced with the rapid growth of e-scooters, local governments from Europe and US 
 6) What can e-scooter rental/ sellers do to alleviate the problems?<br>
 
 ## Workflow
-(to add picture)
+![](https://github.com/adriana-icasiano/project-1/blob/3671ab514a1d3be88e05e66614d6c792adc375ca/VISUALS/workflow.PNG)
 
 ## Data Sources
 ### APIs
@@ -121,10 +121,10 @@ a)they travel roughly at the same speed.
 b)they all are supposed to be green modes of transport
 c)and ofcourse are dangerous/out of place in both sidewalks as well as in heavily traffic roads.
 The graph provides the time and distance traveled by bike, walk, and segway/e-scooters, and indicates that the time the use of e-scooters is lowest.E-scooters are use for short trips and intermediary transport to groceries, and train station. 
-![](https://github.com/adriana-icasiano/project-1/blob/760353e87f5dba5282188219dfc846bfb5d136c2/DATA/demographic/plots/TripDurations.png)
-We found out that on an average vehicle trip distance for segways/scooters were not more than 5 miles and for bike its 3 miles. The trip duration indicates that the max trip duration ranges from 20 min in case of bikes to 10 min in case of scooters. Most of the people use these micromobilty devices to do short distance travels, getting meals, going to work, running errands, getting groceries. 
-![](https://github.com/adriana-icasiano/project-1/blob/4accf1ca1844fa7f986dab0443748083bd3fdd1e/DATA/demographic/plots/Commutedistance.png)
-![](https://github.com/adriana-icasiano/project-1/blob/main/DATA/demographic/Reason_for_trips.png)
+![](https://github.com/adriana-icasiano/project-1/blob/760353e87f5dba5282188219dfc846bfb5d136c2/DATA/demographic/plots/TripDurations.png)<br>
+We found out that on an average vehicle trip distance for segways/scooters were not more than 5 miles and for bike its 3 miles. The trip duration indicates that the max trip duration ranges from 20 min in case of bikes to 10 min in case of scooters. Most of the people use these micromobilty devices to do short distance travels, getting meals, going to work, running errands, getting groceries. <br>
+![](https://github.com/adriana-icasiano/project-1/blob/4accf1ca1844fa7f986dab0443748083bd3fdd1e/DATA/demographic/plots/Commutedistance.png)<br>
+![](https://github.com/adriana-icasiano/project-1/blob/main/DATA/demographic/Reason_for_trips.png)<br>
 ##### Takeaway
 These micromobility devices can really cutshort the small automobile trips and thereby help in reducing carbon emiison.
 
@@ -152,7 +152,7 @@ Data Source: National Electronic Injuries Surveillance System (NEISS) <br>
 ![](https://github.com/adriana-icasiano/project-1/blob/af3bb887fdb6c3f8b056af0e4a00ec78373337c2/DATA/Hypothesis%201%20(Injuries)/Hypothesis_Injuries_Regarding_Intoxication/Intoxication%20injuries.png)<br>
 
 ## Findings
-### The use of scooters resembles the use of public transportation for short distance and local travels based on:
+### The use of scooters resembles the use of public transportation for short distance and local travels based on the following findings:
 >1) Demographics of cities that use e-scooters differ from the rest of the US.
 >2) Average distance traveled ~5 miles
 >3) Average Time Duration ~20 mins.
@@ -173,6 +173,3 @@ Data Source: National Electronic Injuries Surveillance System (NEISS) <br>
 
 ## Conclusion
 With productive and thoughtful government regulations, the pros of e-scooter use outweigh the cons.
-
-
-this is a test
