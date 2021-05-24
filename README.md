@@ -123,6 +123,8 @@ The graph provides the time and distance traveled by bike, walk, and segway/e-sc
 We found out that on an average vehicle trip distance for segways/scooters were not more than 5 miles and for bike its 3 miles. The trip duration indicates that the max trip duration ranges from 20 min in case of bikes to 10 min in case of scooters. Most of the people use these micromobilty devices to do short distance travels, getting meals, going to work, running errands, getting groceries. <br>
 ![](https://github.com/adriana-icasiano/project-1/blob/4accf1ca1844fa7f986dab0443748083bd3fdd1e/DATA/demographic/plots/Commutedistance.png)<br>
 ![](https://github.com/adriana-icasiano/project-1/blob/main/DATA/demographic/Reason_for_trips.png)<br>
+
+[The Code ](https://github.com/adriana-icasiano/project-1/blob/main/DATA/demographic/demographic.ipynb)
 ##### Takeaway
 These micromobility devices can really cutshort the small automobile trips and thereby help in reducing carbon emiison.
 
@@ -131,12 +133,12 @@ Data Source: National Household Travel Survey<br>
 Another  standout pattern we found was  that Men are twice as likely than  women( 67 and 33) to use these micromobilty devices. One of the possible reasons for Women to shy away from embracing these devices is safety which could be attributed to the lack of proper bike lanes.  
 ![](https://github.com/adriana-icasiano/project-1/blob/7910943657733be83a8bed575f142c33dfdc9bf2/DATA/demographic/plots/genderusers.png)
 ##### Major takeaway: Working on the infrastructure can improve the success of these esccoters.
-
+[The Code ](https://github.com/adriana-icasiano/project-1/blob/main/DATA/demographic/demographic.ipynb)
 #### Urban vs Rural
 Data Source: National Household Travel Survey<br>
 ![](DATA/demographic/plots/urbanVsRural.png)
 Unsurprisingly, our finding also indicated that there is more success of these micromobilty devices in urban as opposed to rural areas.
-
+[The Code ](https://github.com/adriana-icasiano/project-1/blob/main/DATA/demographic/demographic.ipynb)
 
 
 ### Injuries 
