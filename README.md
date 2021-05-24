@@ -66,9 +66,7 @@ The heatmap is as follows.
 ![](https://github.com/adriana-icasiano/project-1/blob/main/DATA/bird-us-cities/bird_location.png)
 
 Retrieved for geocodes for available e-scooters
-![](https://github.com/adriana-icasiano/project-1/blob/a2d4fed4d32a28efe080a0466c005bbd8709b2cf/CODES/iterrows_to_get_url_cities.PNG)<br>
 Using gecodes, retrieved the cities names from gmaps.
-![](CODES/retrieve_city_using_geocode.PNG)<br>
 Generated heatmap using cities, geocodes and bike counts.
 ![](VISUALS/heatmap.PNG)<br>
 
